@@ -11,7 +11,7 @@ export default function Ejercicio3() {
     const [lista, setLista] = useState(titulos);
 
 
-    //Función editar 
+    //Función editar que se va a ejecutar cuando pulsas el botoón editar
     const editar = (index) => {
         setLista(
             lista.map((item, i) =>
@@ -29,7 +29,9 @@ export default function Ejercicio3() {
         );
     };
 
-    //Después del mapeo utilizo operador ternario y miro si se est editando o no para hacer una cosa u otra
+    /*Después del mapeo utilizo operador ternario y miro si se est editando o no para hacer una cosa u otra
+    (en caso de que se este editando pues utilizo la función de guardar)*/
+    
     return (
         <>
             <h1>Ejercicio 3: Library</h1>

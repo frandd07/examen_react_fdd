@@ -58,7 +58,7 @@ export default function Ejercicio1() {
                 <input type="submit" value="Agregar" /> 
             </form>
 
-            <h4>Lista</h4>
+            <h4>Lista de animales</h4>
             <div>
                 {animales.map((animal, index) => (
                     <div key={index}>
